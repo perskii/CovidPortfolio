@@ -187,11 +187,11 @@ select *,(sumNewVacc/population)*100 as numberOfVaccinated from popVsVacc
 drop table if exists #precentPopulationVaccinated
 Create Table #precentPopulationVaccinated
 (
-location nvarchar(200),
-date datetime,
-population numeric, 
-new_vaccinations numeric, 
-sumNewVacc numeric
+	location nvarchar(200),
+	date datetime,
+	population numeric, 
+	new_vaccinations numeric, 
+	sumNewVacc numeric
 )
 
 Insert into #precentPopulationVaccinated
@@ -217,4 +217,4 @@ select dea.location, dea.date, dea.population, vacc.new_vaccinations,
 	and dea.date = vacc.date
 	where dea.continent is not null
 
-	select * from precentPopulationVaccinated
+select * from precentPopulationVaccinated
