@@ -1,28 +1,9 @@
--- here is the data which i'm going to use in that project
-select 
-	location, 
-	date, 
-	total_cases, 
-	new_cases, 
-	total_deaths,
-	new_deaths
-	population
-	from CovidDeaths
-	order by 1,2
-
--- checking how much total cases vs total deaths
-select 
-	location, 
-	Count(total_cases) as total_cases, 
-	Count(total_deaths) as total_deaths
-	from CovidDeaths
-	group by location
-	order by total_cases DESC;
-
 -- check % of deaths per case with 'where' clause
 select 
 	location, 
 	date,
+	total_deaths,
+	total_cases,
 	(total_deaths/total_cases)*100 as precent
 	from CovidPortfolio..CovidDeaths
 	where (total_deaths/total_cases)*100 != 0
@@ -187,11 +168,11 @@ select *,(sumNewVacc/population)*100 as numberOfVaccinated from popVsVacc
 drop table if exists #precentPopulationVaccinated
 Create Table #precentPopulationVaccinated
 (
-	location nvarchar(200),
-	date datetime,
-	population numeric, 
-	new_vaccinations numeric, 
-	sumNewVacc numeric
+location nvarchar(200),
+date datetime,
+population numeric, 
+new_vaccinations numeric, 
+sumNewVacc numeric
 )
 
 Insert into #precentPopulationVaccinated
@@ -217,4 +198,4 @@ select dea.location, dea.date, dea.population, vacc.new_vaccinations,
 	and dea.date = vacc.date
 	where dea.continent is not null
 
-select * from precentPopulationVaccinated
+	select * from precentPopulationVaccinated
