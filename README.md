@@ -24,7 +24,7 @@ To use the CovidPortfolio-SQL-Tableau project, follow these steps:
 
 1. Clone the repository from GitHub: https://github.com/perskii/CovidPortfolio-SQL-Tableau.git 📥
 2. Install a SQL database management system, such as MySQL or PostgreSQL, and create a database to store the Covid-19 data. 💾
-3. Import the provided Covid-19 data into the database. The data can be found in the `data` directory of the repository, in CSV format. 📈
+3. Import the provided Covid-19 data into the database. The data can be found in the `excel sheets with COVID-DATA` directory of the repository, in CSV format. 📈
 4. Connect to the database using a SQL client or an Integrated Development Environment (IDE) that supports SQL, such as MySQL Workbench or pgAdmin. 🖥️
 5. Execute the SQL queries provided in the `sql` directory of the repository to analyze the Covid-19 data. The queries can be customized based on the specific data analysis requirements. 📋
 6. Install Tableau Desktop or Tableau Public, and open the Tableau workbook provided in the `tableau` directory of the repository. The workbook contains pre-built dashboards that visualize the analyzed Covid-19 data. 📊
