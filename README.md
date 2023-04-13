@@ -1,6 +1,6 @@
 # CovidPortfolio-SQL-Tableau 📊
 
-CovidPortfolio-SQL-Tableau is a project that focuses on analyzing and visualizing Covid-19 data using SQL and Tableau. The project utilizes SQL queries to extract and analyze data related to Covid-19 cases, deaths, and vaccinations from a database. The analyzed data is then visualized using Tableau to create interactive and informative dashboards. 📈📉
+CovidPortfolio-SQL-Tableau is a project that focuses on analyzing and visualizing Covid-19 data using SQL and Tableau. Also is focusing on data-cleaning. The project utilizes SQL queries to extract and analyze data related to Covid-19 cases, deaths, and vaccinations from a database. The analyzed data is then visualized using Tableau to create interactive and informative dashboards. 📈📉
 
 ## Features 🚀
 
