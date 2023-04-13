@@ -31,10 +31,6 @@ To use the CovidPortfolio-SQL-Tableau project, follow these steps:
 7. Customize the Tableau dashboards based on the specific visualization requirements, such as changing chart types, adding filters, and modifying colors. 🎨
 8. Save the customized Tableau dashboards and share them with stakeholders for insights and decision-making purposes. 💡
 
-## Usage 📈
-
-The CovidPortfolio-SQL-Tableau project can be used to analyze and visualize Covid-19 data for various purposes, such as understanding the impact of the pandemic on different regions, identifying trends and patterns in the data, and making data-driven decisions related to Covid-19 response strategies. The project can be customized based on the specific data analysis and visualization requirements of different stakeholders, such as healthcare organizations, policymakers, researchers, and the general public. 📊
-
 ## Contributing 🤝
 
 If you are interested in
